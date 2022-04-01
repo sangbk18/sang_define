@@ -11,7 +11,7 @@ struct _hex_struct
 	uint8_t adress[2];
 	uint8_t record_type;
 	uint8_t data[16];
-	
+	uint8_t check_sum;
 };
 typedef struct _hex_struct HEX_typedef;
 HEX_typedef hex_demo = {0U,0U,{0U,0U},0U,{0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U,0U},0U};
